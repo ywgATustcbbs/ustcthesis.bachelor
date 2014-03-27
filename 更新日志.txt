@@ -4,8 +4,11 @@
 %   Created：
 %       2010/05/17 ver 0.1 by XPS@USTC
 %   Last Modified：
-%       2012/05/11 by ywg@USTC 
+%       2014/03/27 by ywg@USTC 
 %
+
+更新日志[20140327]
+修正章标题字号不正确的bug
 
 更新日志[2012/5/11]
 1.添加proof环境的中文翻译

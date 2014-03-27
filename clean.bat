@@ -8,3 +8,5 @@ del *.thm /s
 del *.toc /s
 del *.out /s
 del *.xdv /s
+del *.exa /s
+del *.log /s

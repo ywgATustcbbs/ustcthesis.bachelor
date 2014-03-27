@@ -4,11 +4,11 @@
 %   Created：
 %       2010/05/17 ver 0.1 by XPS@USTC
 %   Last Modified：
-%       2012/05/11 by ywg@USTC 
+%       2014/03/27 by ywg@USTC 
 %
 
 \NeedsTeXFormat{LaTeX2e}[1994/12/01]
-\ProvidesClass{ustcthesis}[2010/05/17 ver 0.1 by XPS@USTC Last Modified 2012/05/11 by ywg@USTC]
+\ProvidesClass{ustcthesis}[2010/05/17 ver 0.1 by XPS@USTC Last Modified 2014/03/27 by ywg@USTC]
 
 \newif\ifustc@CaptionNoColon\ustc@CaptionNoColonfalse
 \DeclareOption{capnocolon}{\ustc@CaptionNoColontrue}
@@ -286,10 +286,12 @@
 %\titlespacing{\chapter}{0cm}{-.9cm}{.4cm}
 %\renewcommand{\thesubsubsection}{\arabic{subsubsection}.}
 
-\CTEXsetup[format={{\centering\sanhao\bfseries}}]{chapter}
-\CTEXsetup[format={{\center\bfseries\xiaosanhao}}]{section}
-\CTEXsetup[format={{\flushleft\bfseries\sihao}}]{subsection}
-\CTEXsetup[format={{\flushleft\bfseries\xiaosihao}}]{subsubsection}
+\CTEXsetup[format={\centering}]{chapter}
+\CTEXsetup[nameformat={\sanhao\bfseries}]{chapter}
+\CTEXsetup[titleformat={\sanhao\bfseries}]{chapter}
+\CTEXsetup[format={\center\bfseries\xiaosanhao}]{section}
+\CTEXsetup[format={\flushleft\bfseries\sihao}]{subsection}
+\CTEXsetup[format={\flushleft\bfseries\xiaosihao}]{subsubsection}
 \CTEXoptions[listfigurename={插图索引}]
 \CTEXoptions[listtablename={表格索引}]
 
